@@ -1,0 +1,235 @@
+
+
+.main-section{
+    background: #f6f9fc;
+}
+
+.section-paragrap{
+    width: 400px;
+    margin: auto;
+}
+.header-section h4{
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 35px;
+    position: relative;
+}
+.header-section h4::after {
+    content: "";
+    position: absolute;
+    left: 48%;
+    top: 51px;
+    width: 43px;
+    height: 2px;
+    background: #7392f0;
+}
+
+/* prising table */
+.prising-box-1{
+   text-align: center;
+}
+.prising-top-text p{
+    font-size: 25px;
+}
+
+.prising-reat{
+    position: relative;
+    font-size: 30px;
+    display: inline-block;
+    padding-bottom: 100px;
+}
+.prising-reat::after {
+    content: "";
+    position: absolute;
+    left: -60px;
+    top: 120px;
+    width: 200px;
+    height: 1px;
+    background: rgb(119, 119, 119);
+}
+
+.prising{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0d6efd;
+    color: #fafafa;
+    border-radius: 22px 22px;
+    margin-bottom: 70px;
+    position: relative;
+    z-index: 1;  
+    overflow: hidden;
+    
+}
+.prising:hover{
+    color: white !important;
+   
+}
+.prising::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height:100%;
+    border-radius: 22px 22px;
+    background: #3763eb;
+    z-index: -1;
+    transition: .5s;
+}
+.prising:hover::before{
+    width: 100%;
+}
+
+
+.prising-box-1:hover{
+    background: #3f6bdc !important;
+    color: white !important;
+    transition: .5s;
+}
+.prising-box-1:hover .prising{
+    background: white;
+    color: #3f6bdc;  
+}
+
+/* slider-section */
+
+.slider-section{
+    background:linear-gradient(rgba(0, 0, 255, 0.6),rgba(0, 0, 255, 0.185)), url(./img/free-bg.jpg) no-repeat center;
+}
+
+.slider-text {
+    padding-top: 8%;
+    padding-bottom: 5%;
+    color: white;
+}
+.slider-text h1 {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 50px;
+    position: relative;
+}
+.slider-text h1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+    height: 3px;
+    background: rgb(119, 119, 119);
+
+}
+
+.slider-text p {
+    width: 25%;
+    margin: auto;
+}
+.slider-text h1::after {
+    content: "";
+    position: absolute;
+    left: 253px;
+    top: 113px;
+    width: 56px;
+    height: 2px;
+    background: white;
+}
+.slider{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fafafa;
+    color: #0d6efd;
+    border-radius: 22px 22px;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.slider:hover{
+    color: white;
+}
+.slider::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:0;
+    height: 100%;
+    background: blue;
+    border-radius: 22px 22px;
+    z-index: -1;
+    transition: .5s;
+
+}
+.slider:hover::before{
+    width: 100%;
+}
+
+/* fotter-section */
+.fotter-section{
+    display: flex;
+    justify-content: space-between;
+}
+.fotter-left {
+    background: #3763eb;
+    width: 800px;
+    height: 250px;
+    padding: 25px 28px;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+.fotter-left p {
+    width: 340px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.fotter-left h2{
+    font-weight: 100;
+}
+
+.form-1{
+    border-radius: 22px 22px !important;
+}
+
+
+.form-boton{
+    padding: 5px 30px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 22px 22px;
+}
+.fotter-right {
+    width: 328px;
+    height: 265px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-right: 133px;
+}
+.fotter-right p {
+    width: 185px;
+    font-weight: 600;
+}
+
+.fotter-right a{
+    margin-top: 90px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3763eb;
+    color: white;
+    border-radius: 22px 22px;
+}
+
+    
+    
+    
+
+
+
+
+
